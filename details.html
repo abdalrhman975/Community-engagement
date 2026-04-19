@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تفاصيل المدرسة | منصة دعم ترميم المدارس</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container details-header">
+      <a class="back-link" href="./index.html">العودة للرئيسية</a>
+      <h1 id="details-school-name">تفاصيل المدرسة</h1>
+      <p id="details-location">جاري تحميل الموقع...</p>
+    </div>
+  </header>
+
+  <main class="container details-layout">
+    <section id="details-feedback" class="feedback" aria-live="polite"></section>
+
+    <section id="details-content" class="details-content hidden" aria-live="polite">
+      <div class="details-main-card">
+        <img id="details-main-image" class="details-main-image" src="" alt="صورة المدرسة" />
+        <div class="details-gallery" id="details-gallery"></div>
+      </div>
+
+      <article class="details-block">
+        <h2>وصف المشروع</h2>
+        <p id="details-description"></p>
+      </article>
+
+      <article class="details-block">
+        <h2>إحصائيات الترميم</h2>
+        <div class="progress-meta">
+          <span>نسبة الإنجاز</span>
+          <strong id="details-completion">0%</strong>
+        </div>
+        <div class="progress-bar">
+          <div id="details-progress-fill" class="progress-fill" style="width: 0%"></div>
+        </div>
+        <div class="stats">
+          <div><span>إجمالي التكلفة:</span> <strong id="details-total-cost">-</strong></div>
+          <div><span>المبلغ المجمّع:</span> <strong id="details-collected">-</strong></div>
+          <div class="remaining"><span>المبلغ المتبقي:</span> <span id="details-remaining">-</span></div>
+        </div>
+      </article>
+
+      <article class="details-block donation-card">
+        <h2>طرق التبرع المباشر</h2>
+        <p class="muted">يمكنك التنسيق المباشر عبر واتساب أو التحويل باستخدام المعرفات التالية.</p>
+
+        <div id="whatsapp-links" class="whatsapp-links"></div>
+
+        <div>
+          <h3>أرقام التواصل</h3>
+          <div id="contact-numbers" class="payment-list"></div>
+        </div>
+
+        <div>
+          <h3>بيانات التحويل</h3>
+          <div id="payment-methods" class="payment-list"></div>
+        </div>
+
+        <div class="qr-placeholder" id="qr-placeholder">
+          <strong>QR Code</strong>
+          <p>ضع رمز QR هنا عند توفره</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="./js/details.js" defer></script>
+</body>
+</html>

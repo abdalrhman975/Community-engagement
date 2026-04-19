@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>منصة دعم ترميم المدارس</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>منصة دعم ترميم المدارس</h1>
+      <p>ساهم في إعادة تأهيل المدارس المحتاجة وكن جزءًا من صناعة مستقبل أفضل للطلاب.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar" aria-label="أدوات البحث والتصفية">
+      <div class="global-stats" id="global-stats" aria-live="polite">
+        <div class="stat-item">
+          <span class="label">إجمالي التكلفة</span>
+          <strong id="total-needed">-</strong>
+        </div>
+        <div class="stat-item">
+          <span class="label">إجمالي المبالغ المجمّعة</span>
+          <strong id="total-collected">-</strong>
+        </div>
+        <div class="stat-item highlight">
+          <span class="label">المبلغ المتبقي</span>
+          <strong id="total-remaining">-</strong>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <label for="search-input">ابحث عن مدرسة أو موقع</label>
+        <input
+          type="search"
+          id="search-input"
+          placeholder="اكتب اسم المدرسة أو المدينة..."
+          autocomplete="off"
+        />
+      </div>
+    </section>
+
+    <section id="feedback" class="feedback" aria-live="polite"></section>
+
+    <section id="schools-container" class="schools-grid" aria-label="قائمة المدارس">
+      <!-- يتم حقن بطاقات المدارس هنا عبر JavaScript -->
+    </section>
+  </main>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>

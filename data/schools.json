@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "name": "مدرسة الأمل الأساسية",
+    "location": "دمشق - المزة",
+    "total_cost": 120000,
+    "collected_funds": 47000,
+    "completion_percentage": 39,
+    "description": "تحتاج المدرسة إلى ترميم شامل للفصول الدراسية، إصلاح شبكة الكهرباء، وتجديد دورات المياه لتوفير بيئة تعليمية آمنة.",
+    "image_url": "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1200&q=80",
+    "contact_numbers": ["+963 944 120 331", "+963 993 881 245"],
+    "payment_methods": [
+      { "method": "Sham Cash", "id": "93e27c1ba499dc535a2f031cd3b44e58" }
+    ],
+    "full_gallery": [
+      "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "status": "عاجل",
+    "qr_code_url": "../photo_2026-04-19_16-09-09.jpg"
+  },
+  {
+    "id": 2,
+    "name": "مدرسة المستقبل الثانوية",
+    "location": "حمص - الوعر",
+    "total_cost": 200000,
+    "collected_funds": 98000,
+    "completion_percentage": 49,
+    "description": "المدرسة بحاجة إلى إعادة تأهيل المختبرات العلمية، ترميم السقف المتضرر، وشراء مقاعد جديدة للطلاب.",
+    "image_url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
+    "contact_numbers": ["+963 987 332 610"],
+    "payment_methods": [
+      { "method": "MTN Cash", "id": "71d91b20f774ca9a1025ffe003a0d331" },
+      { "method": "حوالة مالية", "id": "HOMS-TR-022190" }
+    ],
+    "full_gallery": [
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1473615695634-d284ec918736?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "status": "متوسط"
+  },
+  {
+    "id": 3,
+    "name": "مدرسة النور الابتدائية",
+    "location": "حلب - صلاح الدين",
+    "total_cost": 95000,
+    "collected_funds": 23000,
+    "completion_percentage": 24,
+    "description": "يركز مشروع الترميم على إصلاح النوافذ والأبواب، تحسين التهوية، وتجهيز ساحة المدرسة بأنشطة آمنة للأطفال.",
+    "image_url": "https://images.unsplash.com/photo-1613896527026-f195d5c818ed?auto=format&fit=crop&w=1200&q=80",
+    "contact_numbers": ["+963 955 220 771", "+963 944 333 102"],
+    "payment_methods": [
+      { "method": "Zain Cash", "id": "2f84aa191adfd278ec60d8bdaf0be112" }
+    ],
+    "full_gallery": [
+      "https://images.unsplash.com/photo-1613896527026-f195d5c818ed?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "status": "عاجل"
+  },
+  {
+    "id": 4,
+    "name": "مدرسة الريادة الإعدادية",
+    "location": "اللاذقية - المشروع السابع",
+    "total_cost": 150000,
+    "collected_funds": 121000,
+    "completion_percentage": 81,
+    "description": "المشروع في مرحلة متقدمة ويحتاج إلى دعم لإنهاء أعمال الطلاء، صيانة الممرات، وتزويد الصفوف بأجهزة عرض حديثة.",
+    "image_url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+    "contact_numbers": ["+963 998 741 662"],
+    "payment_methods": [
+      { "method": "بنك بيمو", "id": "BMO-9973-5510-AR" },
+      { "method": "Zain Cash", "id": "a15e7c8af919100f6acd34098cae44be" }
+    ],
+    "full_gallery": [
+      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "status": "جيد"
+  }
+]
