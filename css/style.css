@@ -32,8 +32,16 @@ body {
 }
 
 .site-header {
-  padding: 36px 0 20px;
+  padding: 36px 36px 20px;
   background: radial-gradient(circle at top right, #ccfbf1, transparent 55%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header img {
+  width: 100px;
+  height: auto;
 }
 
 .site-header h1 {
