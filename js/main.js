@@ -82,10 +82,7 @@ function renderSchools(schools) {
           </div>
 
           <div class="card-actions">
-            <a class="btn btn-primary btn-link" href="./details.html?id=${school.id}">التفاصيل / تبرع الآن</a>
-            <button class="btn btn-secondary btn-fav ${isFavorite ? "active" : ""}" data-id="${school.id}">
-              ${isFavorite ? "مفضلة" : "إضافة للمفضلة"}
-            </button>
+            <a class="btn btn-primary btn-link" href="./details.html?id=${school.id}">التفاصيل</a>
           </div>
         </div>
       </article>
